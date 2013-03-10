@@ -1,0 +1,10 @@
+﻿@{
+    var homeUrl = Href("~/");
+}
+<h1>
+    <a href="@homeUrl">@WorkContext.CurrentSite.SiteName</a>
+    @if (!string.IsNullOrEmpty(Layout.Title))
+    {
+        <small>| @Layout.Title</small>
+    }
+</h1>
