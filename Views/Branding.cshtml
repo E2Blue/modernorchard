@@ -3,7 +3,7 @@
 }
 <h1>
     <a href="@homeUrl">@WorkContext.CurrentSite.SiteName</a>
-    @if (!string.IsNullOrEmpty(Layout.Title))
+    @if (Layout.Title != null && !string.IsNullOrEmpty(Layout.Title))
     {
         <small>| @Layout.Title</small>
     }

@@ -272,15 +272,13 @@ textarea {
 #layout-wrapper { }
 
 #layout-header, #layout-featured, #layout-before-main, #layout-main, #layout-footer, #layout-after-main, #layout-tripel {
-    width:960px;
-    margin:0 auto;
+
 }
 
 /* Navigation */
 #layout-navigation 
 {
-    width: 960px;
-    margin: 0 auto;
+
     display: block;
     border-bottom: 1px solid #dbdbdb;
 }
@@ -499,7 +497,7 @@ nav ul.breadcrumb
 .aside-12 .aside-first, .aside-12 .aside-second, .aside-12 #layout-content { float:left; }
 
 /* Tripel Zones*/
-#layout-tripel > div { float:left; width:960px; }
+#layout-tripel > div { }
 
 /*2 zones on */
 .tripel-12 #layout-tripel > div { width:480px; } /* If zones 1, 2 are on */
@@ -513,10 +511,10 @@ nav ul.breadcrumb
 #footer-quad > div { float:left; width:240px; }
 
 /*1 zone on */
-.split-1 #footer-quad-first { width:960px; } /* If zone 1 is on */
-.split-2 #footer-quad-second { width:960px; } /* If zone 2 is on */
-.split-3 #footer-quad-third { width:960px; } /* If zone 3 is on */
-.split-4 #footer-quad-fourth { width:960px; } /* If zone 4 is on */
+.split-1 #footer-quad-first { } /* If zone 1 is on */
+.split-2 #footer-quad-second { } /* If zone 2 is on */
+.split-3 #footer-quad-third { } /* If zone 3 is on */
+.split-4 #footer-quad-fourth { } /* If zone 4 is on */
 
 /*2 zones on */
 .split-12 #footer-quad-first, .split-12 #footer-quad-second { width:480px; } /* If zones 1, 2 are on */
